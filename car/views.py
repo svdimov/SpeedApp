@@ -13,9 +13,6 @@ from speedapp.utils import get_user_object
 # Create your views here.
 
 
-def get_object(queryset = None):
-    return get_user_object()
-
 
 class CatalogView(ListView):
     model = Car
